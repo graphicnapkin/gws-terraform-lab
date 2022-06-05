@@ -6,6 +6,12 @@ terraform {
       name = "gws-terraform-lab"
     }
   }
+  required_providers {
+    googleworkspace = {
+      source = "hashicorp/googleworkspace"
+      version = "0.6.0"
+    }
+  }
 }
 
 provider "googleworkspace" {
