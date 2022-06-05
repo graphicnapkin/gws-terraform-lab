@@ -3,7 +3,7 @@ terraform {
     organization = "graphicnapkin"
 
     workspaces {
-      name = "example-workspace"
+      name = "gws-terraform-lab"
     }
   }
 }
