@@ -11,5 +11,5 @@ terraform {
 provider "googleworkspace" {
   customer_id = "C034gw9n8"
   impersonated_user_email = "jc@graphicnapkin.com"
-  oauth_scopes = ["https://www.googleapis.com/auth/admin.directory.orgunit"]
+  oauth_scopes = ["https://www.googleapis.com/auth/admin.directory.orgunit", "https://www.googleapis.com/auth/admin.directory.group", "https://www.googleapis.com/auth/admin.directory.userschema"]
 }
